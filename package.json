@@ -17,6 +17,9 @@
     "test": "echo 'There are currently no tests available.'",
     "scan": "snyk monitor && snyk code test"
   },
+  "bin": {
+    "kblight": "./dist/index.js"
+  },
   "files": [
     "dist"
   ],
