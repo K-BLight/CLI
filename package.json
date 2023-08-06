@@ -1,0 +1,52 @@
+{
+  "name": "@4lch4/k-blight-cli",
+  "displayName": "K-BLight-CLI",
+  "version": "0.0.0",
+  "description": "The CLI component of Project K-BLight.",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/K-BLight/CLI",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "pretty": "prettier --write .",
+    "lint": "prettier -c .",
+    "test": "echo 'There are currently no tests available.'",
+    "scan": "snyk monitor && snyk code test"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "CLI"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/K-BLight/CLI.git"
+  },
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://4lch4.com"
+  },
+  "bugs": {
+    "email": "bugs@4lch4.email",
+    "url": "https://github.com/K-BLight/CLI/issues"
+  },
+  "dependencies": {
+    "@4lch4/busylight": "^1.3.1",
+    "dotenv": "^16.3.1",
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.4",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  }
+}
