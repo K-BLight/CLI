@@ -1,5 +1,5 @@
 {
-  "name": "@4lch4/k-blight-cli",
+  "name": "@k-blight/cli",
   "displayName": "K-BLight-CLI",
   "version": "0.0.0",
   "description": "The CLI component of Project K-BLight.",
